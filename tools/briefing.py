@@ -177,7 +177,9 @@ def dispatch_daily_briefing(settings: Settings, store: Store, item: Item) -> dic
     sent = 0
     digest_lines = [f"Staff briefs for {date_str}:"]
     for b in briefs:
-        messaging.send(b["staff_id"], b["brief"], item=item)
+        # A personal brief goes to a colleague, not a guest - the EU AI Act
+        # Article 50 disclosure line belongs on guest-facing text only.
+        messaging.send(b["staff_id"], b["brief"], item=item, guest_facing=False)
         store_ext.record_brief(store, date=date_str, staff_id=b["staff_id"],
                                staff_name=b["staff_name"], language=b["language"],
                                brief_text=b["brief"], delivered=True, item_id=item.id)

@@ -126,11 +126,14 @@ def dispatch_swap(settings: Settings, store: Store, item: Item) -> dict:
     rows = store_ext.reassign_shift(store, draft["date"], draft["staff_id"], candidate, note=note)
 
     messaging = get_messaging(settings)
+    # Both notifications go to colleagues, not guests - the EU AI Act
+    # Article 50 disclosure line belongs on guest-facing text only.
     if requester is not None:
         messaging.send(requester.id, f"Your {draft.get('role', 'shift')} on {draft['date']} is "
-                       f"now covered by {candidate.name}.", item=item)
+                       f"now covered by {candidate.name}.", item=item, guest_facing=False)
     messaging.send(candidate.id, f"You are covering {requester.name if requester else 'a colleague'}'s "
-                   f"{draft.get('role', 'shift')} on {draft['date']}.", item=item)
+                   f"{draft.get('role', 'shift')} on {draft['date']}.", item=item,
+                   guest_facing=False)
     return {"message_id": f"swap-{draft['request_id']}", "shifts_updated": rows}
 
 

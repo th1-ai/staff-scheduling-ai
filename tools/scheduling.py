@@ -150,7 +150,9 @@ def dispatch_weekly_rota(settings: Settings, store: Store, item: Item) -> dict:
             for sh in mine:
                 lines.append(f"- {day.weekday} {day.date}: {sh.assignment} "
                             f"({sh.start_time}-{sh.end_time}), {sh.role_in_shift}")
-        messaging.send(staff_id, "\n".join(lines), item=item)
+        # A shift list goes to a colleague, not a guest - the EU AI Act
+        # Article 50 disclosure line belongs on guest-facing text only.
+        messaging.send(staff_id, "\n".join(lines), item=item, guest_facing=False)
         notified += 1
 
     return {"message_id": sheet_name, "notified": notified}
