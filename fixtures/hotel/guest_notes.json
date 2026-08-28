@@ -1,0 +1,29 @@
+{
+  "days": {
+    "0": {
+      "arrivals": [
+        {"room": "101", "guest_name": "J. Hoffmann", "note": "Anniversary - petals before 14:00"},
+        {"room": "205", "guest_name": "M. Larsen", "note": "Late arrival, around 22:00"}
+      ],
+      "departures": [
+        {"room": "302", "guest_name": "T. Nguyen", "note": ""}
+      ],
+      "vip_notes": [
+        {"room": "101", "note": "Returning guest - prefers sparkling water on arrival"}
+      ],
+      "maintenance": [
+        {"room": "207", "note": "AC intermittent, engineer notified"}
+      ]
+    },
+    "1": {
+      "arrivals": [
+        {"room": "108", "guest_name": "R. Costa", "note": ""}
+      ],
+      "departures": [
+        {"room": "203", "guest_name": "L. Fischer", "note": ""}
+      ],
+      "vip_notes": [],
+      "maintenance": []
+    }
+  }
+}

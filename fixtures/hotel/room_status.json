@@ -1,0 +1,1363 @@
+{
+  "week_start": "2026-08-31",
+  "days": {
+    "0": [
+      {
+        "room_number": "101",
+        "floor": 1,
+        "room_type": "Suite",
+        "status": "stayover",
+        "vip": true,
+        "note": "VIP guest in house"
+      },
+      {
+        "room_number": "102",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "103",
+        "floor": 1,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "104",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "105",
+        "floor": 1,
+        "room_type": "Double",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "106",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "107",
+        "floor": 1,
+        "room_type": "Double",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "108",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "201",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "202",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "203",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "204",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "205",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "206",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "207",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "208",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "301",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "302",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "303",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "304",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "305",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "306",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "307",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "308",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      }
+    ],
+    "1": [
+      {
+        "room_number": "101",
+        "floor": 1,
+        "room_type": "Suite",
+        "status": "stayover",
+        "vip": true,
+        "note": "VIP guest in house"
+      },
+      {
+        "room_number": "102",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "103",
+        "floor": 1,
+        "room_type": "Double",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "104",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "105",
+        "floor": 1,
+        "room_type": "Double",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "106",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "107",
+        "floor": 1,
+        "room_type": "Double",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "108",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "201",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "202",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "203",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "204",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "205",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "206",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "207",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "208",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "301",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "302",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "303",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "304",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "305",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "306",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "307",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "308",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      }
+    ],
+    "2": [
+      {
+        "room_number": "101",
+        "floor": 1,
+        "room_type": "Suite",
+        "status": "arrival",
+        "vip": true,
+        "note": "VIP guest in house"
+      },
+      {
+        "room_number": "102",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "103",
+        "floor": 1,
+        "room_type": "Double",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "104",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "105",
+        "floor": 1,
+        "room_type": "Double",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "106",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "107",
+        "floor": 1,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "108",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "201",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "202",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "203",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "204",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "205",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "206",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "207",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "208",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "301",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "302",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "303",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "304",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "305",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "306",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "307",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "308",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      }
+    ],
+    "3": [
+      {
+        "room_number": "101",
+        "floor": 1,
+        "room_type": "Suite",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "102",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "103",
+        "floor": 1,
+        "room_type": "Double",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "104",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "105",
+        "floor": 1,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "106",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "107",
+        "floor": 1,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "108",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "201",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "202",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "203",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "204",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "205",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "206",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "207",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "208",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "301",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "302",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "303",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "304",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "305",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "306",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "307",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "308",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      }
+    ],
+    "4": [
+      {
+        "room_number": "101",
+        "floor": 1,
+        "room_type": "Suite",
+        "status": "checkout",
+        "vip": true,
+        "note": "VIP guest in house"
+      },
+      {
+        "room_number": "102",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "103",
+        "floor": 1,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "104",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "105",
+        "floor": 1,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "106",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "107",
+        "floor": 1,
+        "room_type": "Double",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "108",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "201",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "202",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "203",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "204",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "205",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "206",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "207",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "208",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "301",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "302",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "303",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "304",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "305",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "306",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "307",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "308",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      }
+    ],
+    "5": [
+      {
+        "room_number": "101",
+        "floor": 1,
+        "room_type": "Suite",
+        "status": "stayover",
+        "vip": true,
+        "note": "VIP guest in house"
+      },
+      {
+        "room_number": "102",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "103",
+        "floor": 1,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "104",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "105",
+        "floor": 1,
+        "room_type": "Double",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "106",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "107",
+        "floor": 1,
+        "room_type": "Double",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "108",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "201",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "202",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "203",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "204",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "205",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "206",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "207",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "208",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "301",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "302",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "303",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "304",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "305",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "306",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "307",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "308",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      }
+    ],
+    "6": [
+      {
+        "room_number": "101",
+        "floor": 1,
+        "room_type": "Suite",
+        "status": "stayover",
+        "vip": true,
+        "note": "VIP guest in house"
+      },
+      {
+        "room_number": "102",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "103",
+        "floor": 1,
+        "room_type": "Double",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "104",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "105",
+        "floor": 1,
+        "room_type": "Double",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "106",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "107",
+        "floor": 1,
+        "room_type": "Double",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "108",
+        "floor": 1,
+        "room_type": "Twin",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "201",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "202",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "203",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "204",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "205",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "206",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "207",
+        "floor": 2,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "208",
+        "floor": 2,
+        "room_type": "Twin",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "301",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "302",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "303",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "304",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "arrival",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "305",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "306",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "vacant",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "307",
+        "floor": 3,
+        "room_type": "Double",
+        "status": "stayover",
+        "vip": false,
+        "note": ""
+      },
+      {
+        "room_number": "308",
+        "floor": 3,
+        "room_type": "Twin",
+        "status": "checkout",
+        "vip": false,
+        "note": ""
+      }
+    ]
+  }
+}

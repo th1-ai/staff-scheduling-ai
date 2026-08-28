@@ -1,0 +1,124 @@
+# ---------------------------------------------------------------------------
+# agent.yaml - The Planner's own knobs. `make setup` copies this to
+# config/agent.yaml; edit that copy, this example stays as a clean reference.
+#
+# The Planner builds next week's rota from forecast occupancy, the room-turn
+# workload and the restaurant book, respecting your house rules as hard
+# constraints, and resolves swap/sick-day requests automatically. It never
+# publishes a rota or reassigns a shift without a human approving it first -
+# see docs/how-it-works.md for the full loop.
+# ---------------------------------------------------------------------------
+
+# --- Which systems this agent actually uses through core/adapters ----------
+# The rota's own inputs - your team, the room board, the restaurant's covers,
+# the swap requests - come from data/imports/*.csv via tools/store_ext.py, not
+# from here; this key is only about core/adapters. The Planner notifies every
+# rostered person when a week is published, notifies both people on a swap or
+# sick-day cover, and (with the Staff Briefing sub-agent on) sends each daily
+# brief - all messaging. It never calls the PMS or Email: a shift is not a
+# reservation and does not fit the generic PMS interface, see the "Your staff,
+# rooms and covers data" section of docs/integrations.md. So pms and email are
+# left out on purpose - their adapters stay mock forever and must never trigger
+# the "SAMPLE DATA" warning. Listing messaging still warns you correctly if
+# THAT is left on mock once you are running for real.
+systems_used: [messaging]
+
+# A shift's productive minutes, and how long each kind of room stop takes.
+# Used by the housekeeping team-size math (minutes / shift_minutes).
+shift_minutes: 390
+service_minutes:
+  checkout: 35     # departure / turn - full clean
+  stayover: 20
+  arrival: 10      # arrival check on an already-clean room
+
+housekeeping:
+  max_team_size: 4          # a floor never gets more than this many attendants
+  senior_years: 8            # years of experience to count as a "senior" lead
+  max_supervisors: 2         # supervisors split the floors between them
+  max_public_area: 2         # public-area attendants on shift at once
+  max_laundry: 2             # laundry attendants on shift at once
+  shift_start: "08:00"
+  shift_end: "16:30"
+
+fnb:
+  covers_per_server: 15      # fnb-ratios on: covers a single server can carry
+  flat_ratio: 20             # fnb-ratios off: flat covers-per-server for every service
+  runner_ratio: 5            # servers per runner
+  bartenders_dinner: 1       # bartenders_dinner_ratios below overrides this when fnb-ratios is on
+  bartenders_dinner_ratios: 2
+  baristas_breakfast: 1
+  host_covers_floor: 40      # a second host is added above this many covers in one service
+  sommelier_covers_floor: 40 # dinner pulls a sommelier above this many covers
+  group_senior_years: 5      # years of experience (or allergy_trained tag) to count as "senior"
+
+# Working-time limits. Always enforced (not a rule toggle) because the
+# roster's own "cant" line promises them as hard constraints - see
+# docs/how-it-works.md "Design decisions". quota_headroom_floor_hours in
+# particular is NEVER gated by rules.quota-hard-cap below - that toggle
+# only governs a soft preference among people already above this floor.
+working_time:
+  max_consecutive_days: 5
+  min_rest_hours: 11
+  quota_headroom_floor_hours: 8      # hard floor - excluded once monthly headroom
+                                       # drops below this, whatever rules.quota-hard-cap says
+  quota_soft_preference_hours: 20    # soft buffer ABOVE the floor - rules.quota-hard-cap
+                                       # picks these people last, never excludes them
+
+# Cost pass (rule: cost-optimise). A savings line is only shown once the
+# week beats the baseline by at least this many hotel-currency units.
+cost_savings_floor: 100
+
+# The ten toggles from docs/how-it-works.md. Flip one, regenerate, and the
+# rota provably changes - see workflows/10-scheduling.md. quota-hard-cap is
+# a SOFT preference above working_time.quota_headroom_floor_hours - the
+# floor itself is always enforced and this toggle cannot switch it off.
+rules:
+  personal-rules: true
+  quota-hard-cap: true   # soft: pick people close to their quota last, never a hard limit
+  fairness-quota: true
+  cost-optimise: true
+  hk-team-mix: true
+  hk-vip-floor: true
+  hk-supervisor-span: true
+  fnb-ratios: true
+  fnb-group-senior: true
+  fnb-sommelier: true
+
+# Swap requests and sick-day cover (tools/swaps.py). The matching is always
+# automatic; the notification that follows is a guarded write like any
+# other and still waits for approval in the review queue - see
+# docs/how-it-works.md point 1.
+swaps:
+  rank_by: fairness   # fairness (most monthly headroom first) | cost (cheapest first)
+
+# Sub-agent folded into this repo. Off by default: The Planner is fully
+# useful without it (a published rota already tells everyone their shifts);
+# turn it on once you also want a personalised daily task brief per person.
+subagents:
+  staff_briefing:
+    enabled: false
+    # Enforced (tools/briefing.py) - a staff member whose language is not in
+    # this list, or blank, gets hotel.languages[0] instead and the day's
+    # briefing batch is flagged needs_human with the reason. Add a language
+    # here before relying on it, not after.
+    languages: [en, fr, de, es, it, pt]
+
+# --- Schedule ----------------------------------------------------------------
+# What `tools/run.py --watch` polls on, and what `make schedule` prints by
+# default. Each entry names a real command in this repo and the cadence
+# workflows/10-scheduling.md, workflows/20-swaps.md and
+# workflows/25-staff-briefing.md are actually documented to run at.
+# `make schedule ARGS="--all"` prints one ready-to-paste snippet per entry -
+# that is what scheduler/crontab.example and README section 9 show.
+schedule:
+  weekly_rota:
+    command: "tools/run.py --once"
+    cadence: "0 6 * * 1"        # Monday 06:00 - builds next Mon-Sun's rota
+  swaps:
+    command: "tools/run.py --once --swaps-only"
+    cadence: "*/15 * * * *"     # swap/sick-day requests are time-sensitive
+  staff_briefing:
+    command: "tools/briefing.py build --day-offset 0"
+    cadence: "0 6 * * *"        # daily 06:00 - composes only; dispatch via `tools/review.py send`,
+                                 # same as everything else. Only useful while
+                                 # subagents.staff_briefing.enabled is true.

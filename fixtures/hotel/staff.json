@@ -1,0 +1,680 @@
+{
+  "staff": [
+    {
+      "id": "hk-01",
+      "name": "Marta Kovac",
+      "email": "marta.kovac@example.com",
+      "phone": "+1 555 0101",
+      "department": "housekeeping",
+      "role": "Supervisor",
+      "years_experience": 12,
+      "hourly_cost": 19.0,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 140,
+      "days_unavailable": [
+        "Tue"
+      ],
+      "weekend_rule": "any",
+      "language": "en",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "hk-02",
+      "name": "Bilal Rahman",
+      "email": "bilal.rahman@example.com",
+      "phone": "+1 555 0102",
+      "department": "housekeeping",
+      "role": "Supervisor",
+      "years_experience": 10,
+      "hourly_cost": 18.0,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 150,
+      "days_unavailable": [
+        "Thu"
+      ],
+      "weekend_rule": "any",
+      "language": "en",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "hk-03",
+      "name": "Ingrid Solli",
+      "email": "ingrid.solli@example.com",
+      "phone": "+1 555 0103",
+      "department": "housekeeping",
+      "role": "Senior Room Attendant",
+      "years_experience": 9,
+      "hourly_cost": 16.0,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 120,
+      "days_unavailable": [
+        "Sat"
+      ],
+      "weekend_rule": "any",
+      "language": "en",
+      "tags": [
+        "vip_cleared"
+      ],
+      "notes": "Floor 1 lead"
+    },
+    {
+      "id": "hk-04",
+      "name": "Farid Osei",
+      "email": "farid.osei@example.com",
+      "phone": "+1 555 0104",
+      "department": "housekeeping",
+      "role": "Senior Room Attendant",
+      "years_experience": 8,
+      "hourly_cost": 15.5,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 130,
+      "days_unavailable": [
+        "Wed"
+      ],
+      "weekend_rule": "any",
+      "language": "en",
+      "tags": [],
+      "notes": "school pickup Wednesdays"
+    },
+    {
+      "id": "hk-05",
+      "name": "Lucia Ferreira",
+      "email": "lucia.ferreira@example.com",
+      "phone": "+1 555 0105",
+      "department": "housekeeping",
+      "role": "Senior Room Attendant",
+      "years_experience": 11,
+      "hourly_cost": 17.0,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 100,
+      "days_unavailable": [],
+      "weekend_rule": "no_weekends",
+      "language": "pt",
+      "tags": [
+        "vip_cleared"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "hk-06",
+      "name": "Dev Anand",
+      "email": "dev.anand@example.com",
+      "phone": "+1 555 0106",
+      "department": "housekeeping",
+      "role": "Room Attendant",
+      "years_experience": 3,
+      "hourly_cost": 14.0,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 90,
+      "days_unavailable": [
+        "Thu"
+      ],
+      "weekend_rule": "any",
+      "language": "en",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "hk-07",
+      "name": "Noor Haddad",
+      "email": "noor.haddad@example.com",
+      "phone": "+1 555 0107",
+      "department": "housekeeping",
+      "role": "Room Attendant",
+      "years_experience": 2,
+      "hourly_cost": 14.0,
+      "contract": "PTE",
+      "monthly_quota_hours": 100,
+      "hours_worked_mtd": 60,
+      "days_unavailable": [],
+      "weekend_rule": "weekends_only",
+      "language": "en",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "hk-08",
+      "name": "Priya Nair",
+      "email": "priya.nair@example.com",
+      "phone": "+1 555 0108",
+      "department": "housekeeping",
+      "role": "Room Attendant",
+      "years_experience": 1,
+      "hourly_cost": 13.5,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 80,
+      "days_unavailable": [
+        "Fri"
+      ],
+      "weekend_rule": "any",
+      "language": "en",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "hk-09",
+      "name": "Elin Berg",
+      "email": "elin.berg@example.com",
+      "phone": "+1 555 0109",
+      "department": "housekeeping",
+      "role": "Room Attendant",
+      "years_experience": 4,
+      "hourly_cost": 14.5,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 160,
+      "days_unavailable": [
+        "Tue"
+      ],
+      "weekend_rule": "any",
+      "language": "en",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "hk-10",
+      "name": "Camille Duval",
+      "email": "camille.duval@example.com",
+      "phone": "+1 555 0110",
+      "department": "housekeeping",
+      "role": "Room Attendant",
+      "years_experience": 2,
+      "hourly_cost": 14.0,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 168,
+      "days_unavailable": [
+        "Wed"
+      ],
+      "weekend_rule": "any",
+      "language": "fr",
+      "tags": [],
+      "notes": "near monthly quota"
+    },
+    {
+      "id": "hk-11",
+      "name": "Hana Kimura",
+      "email": "hana.kimura@example.com",
+      "phone": "+1 555 0111",
+      "department": "housekeeping",
+      "role": "Room Attendant",
+      "years_experience": 5,
+      "hourly_cost": 15.0,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 110,
+      "days_unavailable": [
+        "Fri"
+      ],
+      "weekend_rule": "any",
+      "language": "en",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "hk-12",
+      "name": "Oren Katz",
+      "email": "oren.katz@example.com",
+      "phone": "+1 555 0112",
+      "department": "housekeeping",
+      "role": "Public Area Attendant",
+      "years_experience": 6,
+      "hourly_cost": 14.5,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 100,
+      "days_unavailable": [
+        "Wed"
+      ],
+      "weekend_rule": "any",
+      "language": "en",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "hk-13",
+      "name": "Wendy Zhao",
+      "email": "wendy.zhao@example.com",
+      "phone": "+1 555 0113",
+      "department": "housekeeping",
+      "role": "Public Area Attendant",
+      "years_experience": 3,
+      "hourly_cost": 14.0,
+      "contract": "PTE",
+      "monthly_quota_hours": 100,
+      "hours_worked_mtd": 70,
+      "days_unavailable": [],
+      "weekend_rule": "any",
+      "language": "en",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "hk-14",
+      "name": "Ana Petrova",
+      "email": "ana.petrova@example.com",
+      "phone": "+1 555 0114",
+      "department": "housekeeping",
+      "role": "Laundry Attendant",
+      "years_experience": 4,
+      "hourly_cost": 14.0,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 100,
+      "days_unavailable": [
+        "Thu"
+      ],
+      "weekend_rule": "any",
+      "language": "es",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "hk-15",
+      "name": "Malik Osei",
+      "email": "malik.osei@example.com",
+      "phone": "+1 555 0115",
+      "department": "housekeeping",
+      "role": "Laundry Attendant",
+      "years_experience": 7,
+      "hourly_cost": 14.5,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 95,
+      "days_unavailable": [
+        "Tue"
+      ],
+      "weekend_rule": "any",
+      "language": "en",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "fb-01",
+      "name": "Theo Marchand",
+      "email": "theo.marchand@example.com",
+      "phone": "+1 555 0201",
+      "department": "fnb",
+      "role": "F&B Supervisor",
+      "years_experience": 10,
+      "hourly_cost": 18.5,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 130,
+      "days_unavailable": [
+        "Tue"
+      ],
+      "weekend_rule": "any",
+      "language": "fr",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "fb-19",
+      "name": "Amara Boateng",
+      "email": "amara.boateng@example.com",
+      "phone": "+1 555 0219",
+      "department": "fnb",
+      "role": "F&B Supervisor",
+      "years_experience": 7,
+      "hourly_cost": 17.5,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 120,
+      "days_unavailable": [
+        "Thu"
+      ],
+      "weekend_rule": "any",
+      "language": "en",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "fb-02",
+      "name": "Grace Adeyemi",
+      "email": "grace.adeyemi@example.com",
+      "phone": "+1 555 0202",
+      "department": "fnb",
+      "role": "Senior Server",
+      "years_experience": 6,
+      "hourly_cost": 16.5,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 120,
+      "days_unavailable": [
+        "Wed"
+      ],
+      "weekend_rule": "any",
+      "language": "en",
+      "tags": [
+        "allergy_trained"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "fb-03",
+      "name": "Marco Rinaldi",
+      "email": "marco.rinaldi@example.com",
+      "phone": "+1 555 0203",
+      "department": "fnb",
+      "role": "Server",
+      "years_experience": 3,
+      "hourly_cost": 15.0,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 100,
+      "days_unavailable": [
+        "Thu"
+      ],
+      "weekend_rule": "any",
+      "language": "it",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "fb-04",
+      "name": "Sara Weiss",
+      "email": "sara.weiss@example.com",
+      "phone": "+1 555 0204",
+      "department": "fnb",
+      "role": "Server",
+      "years_experience": 2,
+      "hourly_cost": 14.5,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 90,
+      "days_unavailable": [
+        "Fri"
+      ],
+      "weekend_rule": "any",
+      "language": "de",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "fb-05",
+      "name": "Julia Alvarez",
+      "email": "julia.alvarez@example.com",
+      "phone": "+1 555 0205",
+      "department": "fnb",
+      "role": "Server",
+      "years_experience": 4,
+      "hourly_cost": 15.0,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 140,
+      "days_unavailable": [
+        "Tue"
+      ],
+      "weekend_rule": "any",
+      "language": "es",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "fb-13",
+      "name": "Noa Lindqvist",
+      "email": "noa.lindqvist@example.com",
+      "phone": "+1 555 0213",
+      "department": "fnb",
+      "role": "Server",
+      "years_experience": 5,
+      "hourly_cost": 15.5,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 105,
+      "days_unavailable": [
+        "Wed"
+      ],
+      "weekend_rule": "any",
+      "language": "en",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "fb-14",
+      "name": "Paulo Santos",
+      "email": "paulo.santos@example.com",
+      "phone": "+1 555 0214",
+      "department": "fnb",
+      "role": "Server",
+      "years_experience": 2,
+      "hourly_cost": 14.5,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 95,
+      "days_unavailable": [
+        "Thu"
+      ],
+      "weekend_rule": "any",
+      "language": "pt",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "fb-06",
+      "name": "Kenji Watanabe",
+      "email": "kenji.watanabe@example.com",
+      "phone": "+1 555 0206",
+      "department": "fnb",
+      "role": "Server",
+      "years_experience": 1,
+      "hourly_cost": 14.0,
+      "contract": "PTE",
+      "monthly_quota_hours": 100,
+      "hours_worked_mtd": 60,
+      "days_unavailable": [],
+      "weekend_rule": "weekends_only",
+      "language": "en",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "fb-07",
+      "name": "Nadia Popescu",
+      "email": "nadia.popescu@example.com",
+      "phone": "+1 555 0207",
+      "department": "fnb",
+      "role": "Runner",
+      "years_experience": 2,
+      "hourly_cost": 13.5,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 100,
+      "days_unavailable": [
+        "Fri"
+      ],
+      "weekend_rule": "any",
+      "language": "en",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "fb-08",
+      "name": "Owen Baptiste",
+      "email": "owen.baptiste@example.com",
+      "phone": "+1 555 0208",
+      "department": "fnb",
+      "role": "Runner",
+      "years_experience": 3,
+      "hourly_cost": 13.5,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 110,
+      "days_unavailable": [
+        "Wed"
+      ],
+      "weekend_rule": "any",
+      "language": "en",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "fb-15",
+      "name": "Mila Petrov",
+      "email": "mila.petrov@example.com",
+      "phone": "+1 555 0215",
+      "department": "fnb",
+      "role": "Runner",
+      "years_experience": 2,
+      "hourly_cost": 13.5,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 90,
+      "days_unavailable": [
+        "Tue"
+      ],
+      "weekend_rule": "any",
+      "language": "en",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "fb-09",
+      "name": "Ines Costa",
+      "email": "ines.costa@example.com",
+      "phone": "+1 555 0209",
+      "department": "fnb",
+      "role": "Bartender",
+      "years_experience": 5,
+      "hourly_cost": 16.0,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 120,
+      "days_unavailable": [
+        "Thu"
+      ],
+      "weekend_rule": "any",
+      "language": "pt",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "fb-18",
+      "name": "Diego Fuentes",
+      "email": "diego.fuentes@example.com",
+      "phone": "+1 555 0218",
+      "department": "fnb",
+      "role": "Bartender",
+      "years_experience": 4,
+      "hourly_cost": 15.5,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 100,
+      "days_unavailable": [
+        "Tue"
+      ],
+      "weekend_rule": "any",
+      "language": "es",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "fb-10",
+      "name": "Leo Bergstrom",
+      "email": "leo.bergstrom@example.com",
+      "phone": "+1 555 0210",
+      "department": "fnb",
+      "role": "Barista",
+      "years_experience": 3,
+      "hourly_cost": 14.5,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 100,
+      "days_unavailable": [
+        "Fri"
+      ],
+      "weekend_rule": "any",
+      "language": "en",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "fb-11",
+      "name": "Zara Malik",
+      "email": "zara.malik@example.com",
+      "phone": "+1 555 0211",
+      "department": "fnb",
+      "role": "Host",
+      "years_experience": 2,
+      "hourly_cost": 14.0,
+      "contract": "PTE",
+      "monthly_quota_hours": 100,
+      "hours_worked_mtd": 60,
+      "days_unavailable": [],
+      "weekend_rule": "any",
+      "language": "en",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "fb-16",
+      "name": "Yusuf Demir",
+      "email": "yusuf.demir@example.com",
+      "phone": "+1 555 0216",
+      "department": "fnb",
+      "role": "Host",
+      "years_experience": 3,
+      "hourly_cost": 14.5,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 100,
+      "days_unavailable": [
+        "Wed"
+      ],
+      "weekend_rule": "any",
+      "language": "en",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "fb-17",
+      "name": "Chiara Bassi",
+      "email": "chiara.bassi@example.com",
+      "phone": "+1 555 0217",
+      "department": "fnb",
+      "role": "Host",
+      "years_experience": 2,
+      "hourly_cost": 14.0,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 90,
+      "days_unavailable": [
+        "Fri"
+      ],
+      "weekend_rule": "any",
+      "language": "it",
+      "tags": [],
+      "notes": ""
+    },
+    {
+      "id": "fb-12",
+      "name": "Henrik Dahl",
+      "email": "henrik.dahl@example.com",
+      "phone": "+1 555 0212",
+      "department": "fnb",
+      "role": "Sommelier",
+      "years_experience": 9,
+      "hourly_cost": 19.0,
+      "contract": "FTE",
+      "monthly_quota_hours": 173,
+      "hours_worked_mtd": 130,
+      "days_unavailable": [
+        "Fri"
+      ],
+      "weekend_rule": "any",
+      "language": "en",
+      "tags": [],
+      "notes": ""
+    }
+  ]
+}

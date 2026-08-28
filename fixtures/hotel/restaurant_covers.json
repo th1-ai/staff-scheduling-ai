@@ -1,0 +1,191 @@
+{
+  "venue": "The Aurora Kitchen",
+  "days": {
+    "0": [
+      {
+        "service": "breakfast",
+        "covers": 20,
+        "dietary": [],
+        "is_group": false,
+        "occasion": "",
+        "notes": ""
+      },
+      {
+        "service": "lunch",
+        "covers": 18,
+        "dietary": [],
+        "is_group": false,
+        "occasion": "",
+        "notes": ""
+      },
+      {
+        "service": "dinner",
+        "covers": 28,
+        "dietary": [],
+        "is_group": false,
+        "occasion": "",
+        "notes": ""
+      }
+    ],
+    "1": [
+      {
+        "service": "breakfast",
+        "covers": 20,
+        "dietary": [],
+        "is_group": false,
+        "occasion": "",
+        "notes": ""
+      },
+      {
+        "service": "lunch",
+        "covers": 16,
+        "dietary": [],
+        "is_group": false,
+        "occasion": "",
+        "notes": ""
+      },
+      {
+        "service": "dinner",
+        "covers": 30,
+        "dietary": [],
+        "is_group": false,
+        "occasion": "wine tasting dinner",
+        "notes": ""
+      }
+    ],
+    "2": [
+      {
+        "service": "breakfast",
+        "covers": 22,
+        "dietary": [],
+        "is_group": false,
+        "occasion": "",
+        "notes": ""
+      },
+      {
+        "service": "lunch",
+        "covers": 18,
+        "dietary": [],
+        "is_group": false,
+        "occasion": "",
+        "notes": ""
+      },
+      {
+        "service": "dinner",
+        "covers": 26,
+        "dietary": [
+          "nut allergy"
+        ],
+        "is_group": true,
+        "occasion": "anniversary",
+        "notes": "party of 10, table by the window"
+      }
+    ],
+    "3": [
+      {
+        "service": "breakfast",
+        "covers": 19,
+        "dietary": [],
+        "is_group": false,
+        "occasion": "",
+        "notes": ""
+      },
+      {
+        "service": "lunch",
+        "covers": 17,
+        "dietary": [],
+        "is_group": false,
+        "occasion": "",
+        "notes": ""
+      },
+      {
+        "service": "dinner",
+        "covers": 26,
+        "dietary": [],
+        "is_group": false,
+        "occasion": "",
+        "notes": ""
+      }
+    ],
+    "4": [
+      {
+        "service": "breakfast",
+        "covers": 24,
+        "dietary": [],
+        "is_group": false,
+        "occasion": "",
+        "notes": ""
+      },
+      {
+        "service": "lunch",
+        "covers": 20,
+        "dietary": [],
+        "is_group": false,
+        "occasion": "",
+        "notes": ""
+      },
+      {
+        "service": "dinner",
+        "covers": 46,
+        "dietary": [],
+        "is_group": false,
+        "occasion": "",
+        "notes": "busiest dinner of the week"
+      }
+    ],
+    "5": [
+      {
+        "service": "breakfast",
+        "covers": 30,
+        "dietary": [],
+        "is_group": false,
+        "occasion": "",
+        "notes": ""
+      },
+      {
+        "service": "lunch",
+        "covers": 26,
+        "dietary": [],
+        "is_group": false,
+        "occasion": "",
+        "notes": ""
+      },
+      {
+        "service": "dinner",
+        "covers": 38,
+        "dietary": [
+          "vegan"
+        ],
+        "is_group": false,
+        "occasion": "",
+        "notes": ""
+      }
+    ],
+    "6": [
+      {
+        "service": "breakfast",
+        "covers": 26,
+        "dietary": [],
+        "is_group": false,
+        "occasion": "",
+        "notes": ""
+      },
+      {
+        "service": "lunch",
+        "covers": 20,
+        "dietary": [],
+        "is_group": false,
+        "occasion": "",
+        "notes": ""
+      },
+      {
+        "service": "dinner",
+        "covers": 30,
+        "dietary": [],
+        "is_group": false,
+        "occasion": "",
+        "notes": ""
+      }
+    ]
+  }
+}
